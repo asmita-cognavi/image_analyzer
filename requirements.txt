@@ -5,7 +5,7 @@ google-generativeai
 numpy
 imutils
 cmake
-dlib
+dlib-bin
 flask
 streamlit
 requests
