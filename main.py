@@ -13,7 +13,9 @@ from imutils import face_utils
 from PIL import Image
 
 # app = Flask(__name__)
-
+st.set_page_config(
+    initial_sidebar_state="expanded"
+)
 # Google GenAI setup
 GOOGLE_API_KEY = st.secrets['GOOGLE_API_KEY']
 genai.configure(api_key=GOOGLE_API_KEY)
