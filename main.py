@@ -13,9 +13,6 @@ from imutils import face_utils
 from PIL import Image
 
 # app = Flask(__name__)
-st.set_page_config(
-    initial_sidebar_state="expanded"
-)
 # Google GenAI setup
 GOOGLE_API_KEY = st.secrets['GOOGLE_API_KEY']
 genai.configure(api_key=GOOGLE_API_KEY)
@@ -390,7 +387,7 @@ def analyze_image(image_path):
 
 
 # Streamlit UI
-st.set_page_config(layout="wide", page_title="Profile Image Analyzer")
+st.set_page_config(layout="wide", page_title="Profile Image Analyzer",initial_sidebar_state="expanded")
 st.title("📸 Profile Image Analyzer")
 st.markdown("**Upload an image to evaluate its suitability for professional use.**")
 # Sidebar Design
