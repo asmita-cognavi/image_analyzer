@@ -1,5 +1,5 @@
 matplotlib
-opencv-python-headless
+opencv-python
 ultralytics
 google-generativeai
 numpy
