@@ -1,0 +1,11 @@
+matplotlib
+opencv-python-headless
+ultralytics
+google-generativeai
+numpy
+imutils
+cmake
+dlib
+flask
+streamlit
+requests
