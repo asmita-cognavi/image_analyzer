@@ -14,7 +14,7 @@ from flask import Response
 app = Flask(__name__)
 
 # Google GenAI setup
-GOOGLE_API_KEY = 'AIzaSyCzH7EiW_ZaCpxv6lCR5PB33CQiG1fSvnQ'  # Replace with your actual API key
+GOOGLE_API_KEY = 'key'  # Replace with your actual API key
 genai.configure(api_key=GOOGLE_API_KEY)
 
 
